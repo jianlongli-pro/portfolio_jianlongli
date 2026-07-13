@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
+import LangBubble from './components/LangBubble';
 
 function LiquidBackdrop() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/blog/:slug" element={<BlogPost />} />
         </Routes>
         <Footer />
+        <LangBubble />
       </div>
     </LangProvider>
   );

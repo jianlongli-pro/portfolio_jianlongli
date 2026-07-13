@@ -4,9 +4,10 @@ import { Glass, GlassButton } from '../components/Glass';
 import Waveform from '../components/Waveform';
 import { useLang } from '../context/LangContext';
 import { DOMAIN, domainFor, timeline, projects, posts } from '../data/content';
+"import { timeline } from '../data/timeline.js';"
 
 export default function Home() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
 
   return (
     <>
@@ -55,9 +56,9 @@ export default function Home() {
               <div key={i} className="grid grid-cols-[100px_1fr] gap-6">
                 <div className="font-data text-xs text-[#B3AA97] pt-1">{item.year}</div>
                 <div className="pl-6 pb-2" style={{ borderLeft: `2px solid ${d.border}` }}>
-                  <p className="font-medium">{item.role}</p>
-                  <p className="text-sm mb-1 font-medium" style={{ color: d.text }}>{item.org}</p>
-                  <p className="text-sm text-[#5B5546] leading-relaxed">{item.desc}</p>
+                  <p className="font-medium">{item.role[lang]}</p>
+                  <p className="text-sm mb-1 font-medium" style={{ color: d.text }}>{item.org[lang]}</p>
+                  <p className="text-sm text-[#5B5546] leading-relaxed">{item.desc[lang]}</p>
                 </div>
               </div>
             );

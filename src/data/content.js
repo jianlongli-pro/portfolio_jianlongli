@@ -64,38 +64,7 @@ export function domainFor(text) {
   return DOMAIN.software;
 }
 
-export const timeline = [
-  {
-    year: '2024—2026',
-    role: "Ingénieur d'Études",
-    org: 'Innovateam · CDI',
-    desc: "Structuration et automatisation de processus (−75% temps reporting), pilotage de projets d'infrastructure et de maintenance industrielle.",
-  },
-  {
-    year: '2023',
-    role: 'Ingénieur Mathématiques Appliquées',
-    org: 'Dassault Systèmes · R&D Geometry',
-    desc: "Moteur de calcul d'approximation polynomiale (5 étapes) pour CATIA, modèle prédictif Random Forest.",
-  },
-  {
-    year: '2022',
-    role: 'Ingénieur de Recherche',
-    org: 'Institut du Cerveau · NERB Team',
-    desc: 'Projet BEATBox — pilotage logiciel des expérimentations neurophysiologiques comportementales.',
-  },
-  {
-    year: '2022',
-    role: 'Projet R&D',
-    org: 'ESIEE Paris',
-    desc: 'Gants haptiques médicaux, C embarqué Arduino — nomination au prix des projets R&D.',
-  },
-  {
-    year: '2020—2023',
-    role: "Diplôme d'Ingénieur",
-    org: 'Biotechnologies & E-Santé · ESIEE Paris',
-    desc: 'RGPD santé, essais cliniques des dispositifs médicaux, data science médicale.',
-  },
-];
+export { timeline } from './timeline.js';
 
 export const projects = [
   {
