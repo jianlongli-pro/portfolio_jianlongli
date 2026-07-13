@@ -12,9 +12,9 @@ export const timeline = [
       zh: "Innovateam · 正式员工",
     },
     desc: {
-      fr: "Développement d'outils d'aide à la décision pour Flying Whales et de solutions logicielles industrielles pour Cegelec. Analyse fonctionnelle, automatisation et coordination avec les équipes métiers.",
-      en: "Developed decision-support software for Flying Whales and industrial software solutions for Cegelec. Functional analysis, automation and close collaboration with business teams.",
-      zh: "为 Flying Whales 开发决策支持软件，并为 Cegelec 开发工业软件解决方案。负责需求分析、流程自动化及跨团队协作。",
+      fr: "Développement d'outil de simulation de missions de dirigeable pour Flying Whales. Mise en place de solutions logicielles industrielles pour le métro de Bruxelles, en mission chez Cegelec.",
+      en: "Developed airship mission simulation tools for Flying Whales. Implemented industrial software solutions for the Brussels metro, on assignment at Cegelec.",
+      zh: "为 Flying Whales 开发飞艇任务模拟工具。在 Cegelec 的布鲁塞尔地铁项目中实施工业软件解决方案。",
     },
   },
 
@@ -31,9 +31,9 @@ export const timeline = [
       zh: "达索系统 · Geometry R&D 团队 · 实习",
     },
     desc: {
-      fr: "Conception d'algorithmes numériques pour CATIA, spécifications techniques et optimisation de modèles prédictifs au sein de l'équipe Geometry R&D.",
-      en: "Designed numerical algorithms for CATIA, wrote technical specifications and optimized predictive models within the Geometry R&D team.",
-      zh: "在 Geometry 研发团队中为 CATIA 设计数值算法，编写技术规范并优化预测模型。",
+      fr: "Au sein de l'équipe Geometry R&D, j'ai mené un travail de reverse engineering sur un algorithme historique de CATIA en combinant recherche bibliographique, analyse mathématique et développement d'un prototype Python. Rédaction de spécifications techniques et optimisation d'un modèle prédictif pour réduire la complexité temps/stockage.",
+      en: "Within the Geometry R&D team, I conducted reverse engineering on a historical CATIA algorithm by combining literature review, mathematical analysis, and Python prototype development. Drafted technical specifications and optimized a predictive model to reduce time/storage complexity.",
+      zh: "在 Geometry R&D 团队中，我通过文书钻研、数学分析和 Python 原型开发，对 CATIA 的历史算法进行了逆向工程。并优化预测模型以降低时间/存储复杂性。",
     },
   },
 
@@ -50,9 +50,9 @@ export const timeline = [
       zh: "巴黎脑科学研究所 · NERB团队 · 实习",
     },
     desc: {
-      fr: "Développement de la plateforme logicielle BEATBox pour le pilotage d'expériences en neurosciences comportementales. Contribution aux outils utilisés par la NERB Team pour l'étude des mécanismes neuronaux. 🔗https://nerb.institutducerveau.org/",
-      en: "Developed the BEATBox software platform to control behavioral neuroscience experiments. Contributed to research tools supporting the NERB Team's study of neural mechanisms.🔗https://nerb.institutducerveau.org/",
-      zh: "开发 BEATBox 软件平台，用于控制行为神经科学实验，为 NERB 团队研究神经机制提供科研工具。🔗https://nerb.institutducerveau.org/",
+      fr: "Contribution au sein de l'équipe NERB dans l'étude neurophysiologique des TOC. Développement de solution logicielle pour le pilotage des BEATBox, boîtes d'expérimentations sur la neuroplasticité chez la souris. 🔗https://nerb.institutducerveau.org/",
+      en: "Developed software for controlling behavioral neuroscience experiments BEATBoxes, for open-source release. Contributed to the NERB Team's research on neural mechanisms. 🔗https://nerb.institutducerveau.org/",
+      zh: "开发用于控制行为神经科学实验的 BEATBox 软件。BEATBox 使用专门观察小白鼠的为学习以及适应能力。为 NERB 团队研究神经机制提供支持。🔗https://nerb.institutducerveau.org/",
     },
   },
 
@@ -69,9 +69,9 @@ export const timeline = [
       zh: "ESIEE Paris",
     },
     desc: {
-      fr: "Conception de gants haptiques médicaux en C embarqué (Arduino), nommé au prix des projets R&D de l'école. Projet mêlant électronique, logiciel embarqué et interaction homme-machine.",
-      en: "Designed medical haptic gloves using embedded C (Arduino), nominated for the ESIEE R&D Project Award. Combined embedded systems, electronics and human-computer interaction.",
-      zh: "设计基于嵌入式 C（Arduino）的医疗触觉手套项目，获 ESIEE 研发项目奖提名。融合嵌入式系统、电子设计与人机交互。",
+      fr: "Analyse bibliographique des récepteurs nerveux de la peau, conception d'un prototype de gant haptique médical, combinant l'électronique, le logiciel embarqué et l'interaction homme-machine, contribuant à la rééducation de patients. Projet nommé au prix des projets R&D de l'école.",
+      en: "Conducted literature review on skin nerve receptors, designed a medical haptic glove prototype combining electronics, embedded software and human-computer interaction, contributing to patient rehabilitation. Project nominated for the ESIEE R&D Project Award.",
+      zh: "进行了皮肤神经受体的文献调研，设计了医疗触觉手套原型，结合电子技术、嵌入式软件和人机交互，为患者康复做出贡献。项目被提名为 ESIEE 研发项目奖。",
     },
   },
 
